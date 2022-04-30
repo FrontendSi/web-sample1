@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geriausi programavimo kursai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="aboutusheader">
+        <nav>
+            <a href="index.html"> <img src="/imges/logoipsum-logo-55.svg" alt=""></a>
+
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMeniu()"></i>
+                <ul>
+                    <li> <a href="index.html"> Pagrindinis </a></li>
+                    <li> <a href="aboutus.html"> Apie mus</a></li>
+                    <li> <a href="courses.html"> Kursai</a></li>
+                    <li> <a href="blog.html"> Blogas</a></li>
+                    <li> <a href="contacts.html"> Kontaktai</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMeniu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Lorem ipsum dolor sit amet</h1>
+        </div>
+    </section>
+
+    <!--BLOG CONTENT -->
+
+    <section class="content">
+        <div class="leftside">
+            
+            <img src="/imges/blogstudent.jpg" alt="">
+            
+            <div class="leftsidetext">
+            <h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat aut culpa maxime nobis non voluptatum dicta excepturi ex consequatur ipsa, dolore vero consequuntur vitae quidem qui, illo eaque molestiae at mollitia iure, blanditiis veritatis magni? Aut, atque? Earum obcaecati quidem non eos laudantium totam laborum temporibus alias nostrum numquam?</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eveniet, excepturi fugit sit officiis delectus quis cum nostrum! Numquam, architecto.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odit excepturi, praesentium sed fugiat aperiam illum natus explicabo delectus nobis error eum voluptatum soluta hic nam doloribus optio. Vel, maiores?</p>
+            </div>
+
+            <div class="leftsideform">
+                <h4>Palikite atsiliepimą</h4>
+                    <form>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Enter the name"> 
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Enter the email">
+                        <label for="comment"></label>
+                        <label for="comments"></label>
+                        <textarea id="comments" name="comments" placeholder="Tavo atsiliepimas"></textarea>
+                <button type="submit">Pateikite atsiliepimą!</button>
+                 </form>
+            </div>
+          </div>  
+               
+           
+            <div class="rightside">
+                <h3>Kursų kryptys</h3>
+                <table>
+                    <tr>
+                        <td>Verslo analitika</td>
+                        <td class="no">21</td>
+                    </tr>
+                    <tr>
+                        <td>Dirbtinis intelektas</td>
+                        <td class="no">15</td>
+                    </tr>
+                    <tr>
+                        <td>Dirbtinis intelektas</td>
+                        <td class="no">32</td>
+                    </tr>
+                    <tr>
+                        <td>Kompiuterių mokslas</td>
+                        <td class="no">28</td>
+                    </tr>
+                       
+                </table>
+            </div>
+        </div>
+    </section>
+
+    
+     <!-- FOOTER -->
+<footer class="footer">
+    <h3>Apie mus</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo minima vitae repellendus delectus deleniti est recusandae minus id nulla dignissimos! Quas consectetur perspiciatis nemo quod qui ipsam vitae error delectus.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+
+</footer>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMeniu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMeniu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
